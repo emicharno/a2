@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Interactive Data Visualization & Society (11.C85) Assignment 2</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 2</small>
+			Exploratory Data Analysis
+		</h1>
+
+		<p>
+			<strong>Emilia Rose Charno</strong> — <em>ercharno@mit.edu</em>
+		</p>
+	</header>
+	<main>
+		<section>
+			<h2>Subtheme: Corporate Landlords & Evictions</h2>
+
+			<h3>Overall Analysis Questions</h3>
+			<ol>
+				<li>Broadly, who owns Boston?
+				<ul>
+				<li>Which Boston neighborhoods have high rates of corporate ownership?</li>
+				<li>Which Boston neighborhoods have high rates of occupant ownership? </li>
+				<li>How have corporate and occupant homeownership rates changed over time in Boston neighborhoods? </li>
+				<li>Are there any neighborhoods that stand out with particularly striking dynamics? (E.g., consistent increase/decrease)</li>
+				</ul>
+			</li>
+				<li>Who benefits from home ownership in Boston?
+					<ul>
+			<li>Given the history of racial discrimination in zoning policy and practice, are there any correlations between corporate ownership (precludes occupant ownership) and racial composition of neighborhoods?</li>
+			<li>Are there any correlations between corporate ownership and age composition of neighborhoods? </li>
+					</ul>
+				</li>
+				<li>What are the dynamics of corporate ownership? 
+					<ul>
+				<li>Do corporate-owned properties cluster around or encompass specific infrastructure and amenities (e.g., student/university housing, nursing and elder care facilities, vacant homes)?</li>
+				<li>What types of housing are most owned by corporations (e.g., single-family, multi-family, larger apartments, etc.)? </li>
+					</ul>
+				</li>
+				<li>How does corporate ownership impact community wealth generation?
+					<ul>
+				<li>What is the relationship between corporate ownership and median home price in Boston neighborhoods? </li>
+				<li>Are corporate-owned vs. occupant-owned properties more likely to be involved in tax delinquency or foreclosure? </li>
+				<li>What are the longer-term impacts of corporate ownership of intergenerational wealth accumulation? </li>
+					</ul> 
+				</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Section 0. Knowing What We Don't Know & Contextual Grounding</h2>
+
+			<p>When conducting data analysis, it can be easy to get into specifics and harder to stay grounded in the animating reasons underlying the research in the first place. As such, I believe it is important to begin such an analysis by explicitly stating the following: Americans are experiencing a full-blown housing crisis, with embodied impacts on real humans living real lives. Particularly when advancing an analytical framework to advance a normative, justice-oriented framework, it is critical to remind oneself of the humanity represented in digits on a screen. I ask you to keep this in mind, particularly as it relates to patterns of housing inequity, that fall and have fallen disproportionately on communities of color and no- and low-income residents. The analysis I will present below should be understood as such.  Furthermore, a few terms to define before digging into data structures and ultimately discoveries and insights. These are not exhaustive but rather working definitions:</p>
+				<ul>	
+				<li>Corporate Ownership: The practice of corporations, real estate investment trusts, or institutional investors owning residential properties. As profit-oriented actors, corporate ownership is usually flagged in correlation to housing affordability (and ultimately displacement) concerns. </li>
+				<li>Occupant Ownership: The practice of residents who live in a home owning that home. Communities with lower owner occupancy rates may bear the scars of historic housing discrimination, including exclusion from intergenerational asset-building by means of property appreciation.  </li>
+				<li>Housing Discrimination: The unfair treatment of groups and/or individuals in transactions related to housing on the basis of race, ethnicity, disability, socioeconomic status, sex, gender, etc. Housing discrimination has many faces, including exclusionary zoning, historic redlining, and racially restrictive covenants. </li>
+			</ul>
+			</li>
+		</section>
+		
+		<section>
+			<h2>Section 1. Let's Get to Know our Data!</h2>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Section 2. Answering Research Questions</h2>
+
+		</section>
+
+		<section>
+			<h2>Section 4. Summary Lessons Learned & Future Research Inquiries</h2>
+
+		<p>It was highly instructive to work with these data sets for A2, as I believe they have prepared me with a strong spatial and contextual grounding to continue advancing relevant analyses of housing discrimination in Boston. I learned several helpful lessons from this analysis. On the basis of U.S. census racial groups, Boston displays the dynamics of spatial segregation. Contextualizing within the city’s history of redlining, exclusionary zoning, urban renewal eminent domain actions, and restrictive covenants, this does not come as a surprise. White Bostonians are the most populous resident group, although when disaggregated by age for children 0-17, we see that Hispanic/Latino and Black children outnumber white children in Boston neighborhoods. Understandably, the total population and children population visualizations maintain similar patterns of racial segregation. Such an insight may imply that although the population of young Hispanic/Latino and Black Bostonians is on the rise as compared to young white Bostonians, spatial segregation patterns may remain entrenched at the neighborhood level. This is all a helpful basis for understanding the dynamics of corporate ownership and average occupancy rates across all Boston neighborhoods, which between 2004-2024 rose for the former (from 5.48% to 25.29%) and fell for the latter (from 43.57% to 38.05%). The neighborhood of South Boston Waterfront displays particularly volatile year-to-year variations in average corporate ownership and average occupancy rates. Finally, the concluding analysis provides insights suggesting a correlation between corporate ownership rates and vacancy rates in Boston neighborhoods, with little to no variation introduced by size of housing stock in the neighborhood or racial demographics. This implies that across Boston’s neighborhoods (with large white and non-white demographics) high vacancy rates are correlated with high corporate ownership rates. Looking to the future, I am highly interested in building on the contents of this analysis to further uncover dynamics of corporate and occupant ownership across Boston’s neighborhoods. This analysis primarily sought to answer the first two questions (and multiple sub-questions) enumerated at the beginning of this report. Next, I would like to uncover more about the dynamics of corporate ownership as well as how corporate ownership impacts community wealth generation (particularly in non-white neighborhoods that have been historically excluded from housing asset growth).</p>
+		
+
+	</section>
+	</main>
+</body>
+</html>
