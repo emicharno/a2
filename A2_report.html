@@ -6,6 +6,12 @@
 </head>
 
 <body>
+	<style>
+		figcaption::before {
+			content: none !important;
+		}
+	</style>
+	
 	<header>
 		<h1>
 			<small>Assignment 2</small>
@@ -21,6 +27,7 @@
 			<h2>Subtheme: Corporate Landlords & Evictions</h2>
 
 			<h3>Overall Analysis Questions</h3>
+			<p>	Through this analysis, outside housing discrimination research, and contextual background reading on corporate speculation, I considered the following questions. While I did not explicitly focus on each of these through the analysis that ensues, I believe it is important for someone consuming my analysis to understand the research questions on my mind (those answered and unanswered) for full transparency on my initial hypotheses and critical frameworks.</p>
 			<ol>
 				<li>Broadly, who owns Boston?
 				<ul>
@@ -125,63 +132,127 @@
 
 			<section>
 				<h2>Section 2. Answering Research Questions</h2>
-	
-			</section>
-			
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+	<p>	While I certainly was not able answer every single question above, I will now present some interesting insights and reflections based upon the visualizations and spatial analysis found within the data sets. 
 
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+		To begin answering the question of "Who owns Boston?" I wanted to start with a high-level overview of aggregate corporate ownership and owner occupancy rates for the Boston neighborhoods that are the subject of our inquiry. From this visualization, across Boston neighborhoods average owner occupancy fell (from 43.57% to 38.05%) and average corporate ownership rose (from 5.48% to 25.29%). 
+		</p>
 
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+		<figure>
+			<img src="images/2.1.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+		</figure>
 
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+<p>Note for Future Inquiry: I believe in future inquiry, it would be highly interesting to include two additional temporal average lines in this visualization: average U.S. corporate ownership between 2004-2024 and average U.S. owner occupancy rates between 2004-2024. Boston is one of the country’s most expensive housing markets, and it would be helpful to contextualize these rates within the national context for viewers of the visualization. </p>
 
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+<p>To begin visualizing neighborhood-level variation and trends in corporate ownership rate and owner occupancy rate, the next visualization disaggregates average corporate ownership rate and average owner occupancy rates from 2004-2024 by neighborhood. For design purposes, we keep the same color scheme to utilize contrasting colors and provide visual cohesion. </p>
 
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
+<figure>
+	<img src="images/2.2.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
 
-			<figure>
-				<img src="IMAGE_FILENAME" alt="" />
-				<figcaption>
-				ENTER IMAGE CAPTION HERE.
-				</figcaption>
-			</figure>
-		</section>
+<p>Next, I chose to visualize corporate ownership rates and owner occupancy rates by neighborhood. The purpose of doing so was to look for (1) upper-bound neighborhood variables, (2) lower-bound neighborhood variables, and (3) extreme visual variations. Humans are good at picking up on visual to identify variation—and as such I used bright and contrasting colors to distinguish between neighborhoods. The visualizations are found below. </p>
 
+<figure>
+	<img src="images/2.3.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
 
+<figure>
+	<img src="images/2.4.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
 
+<p>As highlighted in the visualization of average corporate ownership rates and owner occupancy for all Boston neighborhoods, we can see that corporate ownership rates are generally going up and owner occupancy rates are generally going down. Thanks to delineation by neighborhood, we can start to get more granular with our insights. For example, there are very low rates of corporate ownership in the neighborhoods of West Roxbury and Roslindale. Although these numbers increased 300% for West Roxbury and 600% for Roslindale, we can note these neighborhoods as being of interest for further analysis, particularly as it comes to demographics. Turning to the visualization on owner occupancy, we again encounter West Roxbury and Roslindale as notable. Average ownership occupancy rates fell in West Roxbury by 1.5% and in Roslindale by 7.35% over the 20 years, but both neighborhoods remain well-above the aggregate averages over the entire period. </p>
+
+<p>Note on Design: The y-axis on the average corporate ownership rates and average owner occupancy graphs both begin at 0, which provides helpful quantitative contextualization for these numbers. I believe it is visually interesting to note that average owner occupancy rates begin roughly above 20% in 2004 as opposed to average corporate ownership rates, which begin roughly at 0% in 2004. </p>
+
+<p>In both visualizations it is also visually clear that one neighborhood displays strong temporal variation for both corporate ownership rates and owner occupancy rates: South Boston Waterfront. Visualizations highlighting this for viewers are found below. This kind of variation signals to me that data on median home price, number of housing units, development history, and demographic influx/displacement could be highly interesting to unraveling the full story of the South Boston Waterfront (with data!). </p>
+
+<figure>
+	<img src="images/2.5.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+
+<figure>
+	<img src="images/2.6a.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+
+<p>Note for Future Inquiry: Within additional datasets beyond those provided for analysis in A2, I believe it would be very interesting to explore what is contributing to the lessening gap between corporate ownership and owner occupancy rates in Boston. Given the difficulty of building new housing in Boston (see <a href="https://www.bostonfed.org/news-and-events/news/2024/12/nowhere-to-hide-housing-costs-keep-climbing-in-all-corners-of-new-england-boston-fed-housing-crisis.aspx" target="_blank">this report</a>, among many) my hunch is that new housing is available for owner occupancy by an increasingly small, elite group of residents and that the majority of new development (in South Boston Waterfront, for example) is ultimately corporation-owned. </p>
+
+<p>Now that we have a better sense of who owns Boston from the standpoint of entities (i.e., corporation vs. resident) it will be helpful to characterize who these Bostonians are and what groups or identities they fall in to. In this analysis, we will utilize census data primarily around race and age. In the real world, these are two of the identities that may fit into a person’s multifaceted sense of self.  </p>
+
+<p>The following two visualizations characterize population by U.S. census bureau racial groups (as of the 2020 decennial census). It is clear from the total population visualization that the largest total population by racial group in Boston is white (about 280,000 residents). The second and third largest total population by racial groups are Black (about 126,000) and Hispanic/Latino (about 121,000). I then turned my inquiry to the population of children by U.S. Census Bureau racial groups as a proxy for intergenerational trends and population signifiers. Interestingly, the results are different! The largest child population by racial group in Boston is Hispanic/Latino (about 31,000), followed by Black (about 26,000) and white (about 24,000). This could indicate a changing demographic racial mix across Boston’s neighborhoods. </p>
+
+<figure>
+	<img src="images/2.7.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+
+<figure>
+	<img src="images/2.8.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+
+<P>Note for Future Inquiry: Like the U.S. Census Bureau, I treated “Other” and “Two or More” as distinct racial categories, mutually exclusive from the others. If building on this inquiry in the future, I would be interested to dig more deeply into the treatment of these categories, capturing the experience of racial identity that does not fit into neat terms that allow a person to be “counted.” </P>
+
+<p>Note on Design: Circles that cross the x-axis partially are not theoretically the most quantitatively accurate. However, for the purposes of this visualization, which I intended to use to highlight general demographic trends, I believe that the symbology works in favor of such insights. I stumbled upon this symbology while testing different graphical representations of the data within Tableau. I believe that partially obstructured or cut off circles invite the viewer to take stronger notice of instances in which particular racial groups are underrepresented, without calling this out and potentially perpetuating a deficit narrative. </p>
+
+<p>The following demographic analyses build on these insights to include an explicitly spatial component. Given what we have begun to learn about each of these neighborhoods through the above Tableau visualizations, I wanted to explore the neighborhood-level and city-level dynamics of who calls a particular neighborhood home. In the following analysis, I focus primarily on race and age as population identifiers. </p>
+
+<p>Note on Design: For this analysis, I cleaned the data provided in data set (b) to include one row for each neighborhood (given year=2020) and fix minor spelling errors in attribute data for clarity in data management. I also chose to the population demographics along the lines of white and non-white. This was not reflected in the creation of “white” and “non-white” data sets but rather in the combination of variables, as enumerated below. It is important to note that this is not due to a reduction of the very distinct cultural and social richness found among the segments of non-white racial groups. Rather, this is an acknowledgement of the historic practices of housing discrimination that specifically benefitted only those people and families understood to be “white” throughout much of America’s—and by extension Boston’s—history. Given that this analysis applies a critical lens of housing discrimination to the question of corporate ownership vs. owner occupancy, it felt apt to divide the population as such. </p>
+
+<figure>
+	<img src="images/3.2.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+	<figcaption style="text-align: left; margin-top: 8px;">
+		I visualized the data as a choropleth map after applying the transformation (calculation) as follows: (“white_all”)/(“tot_pop_all”). I divided by total population to ensure the data was normalized, and not merely representative of more white residents because there were simply more residents. Using a classification scheme of natural break (Jenks), I categorized the distribution of white populations across five buckets. As is visible from the map, neighborhoods in the northern and northeastern parts of the city (Charleston, North End, South Boston Waterfront, South Boston, for example) have a greater distribution of white residents. One interesting note is the large variation between the upper bucket (at 71.3 – 86/1%) and the lower bucket (at 6.2 – 13.1%) suggesting strong patterns of racial segregation in Boston. 
+	</figcaption>
+</figure>
+
+<p>Note on Design: As visible in the preceding and all subsequent visualizations, these maps include legends to help viewers decipher the analysis. Each bucket should be read with the understanding that upper bounds are exclusive to the lower value bucket and inclusive to the next, higher value bucket. For example, if looking at a bucket labeled “6.2 – 13.1” all values up to and excluding 13.1 will be included, with any values beginning at 13.1 placed in the subsequent bucket. </p>
+
+<figure>
+	<img src="images/3.3.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+	<figcaption style="text-align: left; margin-top: 8px;">
+		Conversely, I next visualized the data as a choropleth map after applying the transformation (calculation) as follows: ( "black_all" + "hisp_all" + "aapi_all" + "aian_all" + "other_all" + "two_or_more" )/(“tot_pop_all”). This data transformation represents the population of non-white Boston residents. I divided by total population to ensure the data was normalized, and not merely representative of more non-white residents because there were simply more residents. Using a classification scheme of natural break (Jenks), I categorized the distribution of non-white populations across five buckets. As is visible from the map, neighborhoods in the southern and southeastern parts of the city (Mattapan and Roxbury, for example) have a greater distribution of non-white residents. As with the last visualization, it is interesting to note the strong racial segregation implied by this visualization, with the upper bucket (77.6 – 93.8%) and lower bucket (13.9 – 23.2%) exemplifying strong trends of spatial separation. 	
+	</figcaption>
+</figure>
+
+<p>Note on Design: For this analysis, I chose to split the population demographics along the lines of white and non-white. It is important to note that this is not due to a reduction of the very distinct cultural and social richness found among the segments of non-white racial groups. Rather, this is an acknowledgement of the historic practices of housing discrimination that specifically benefitted only those people and families understood to be “white” throughout much of America’s—and by extension Boston’s—history. Given that this analysis applies a critical lens of housing discrimination to the question of corporate ownership vs. owner occupancy, it felt apt to divide the population as such. </p>
+
+	<figure>
+		<img src="images/3.4.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+		<figcaption style="text-align: left; margin-top: 8px;">
+			I visualized the data as a choropleth map after applying the transformation (calculation) as follows: (“white_0_17”)/(“tot_pop_0_17”). I divided by total population to ensure the data was normalized, and not merely representative of more white children residents because there were simply more residents. Using a classification scheme of natural break (Jenks), I categorized the distribution of white children populations across five buckets. As is visible from the map, neighborhoods in the northern parts of the city (Charleston and the North End, for example) have a greater distribution of white children residents. The spatial segregation patterns observed among white and non-white residents when looking at total population are overall consistent with spatial segregation patterns observed when looking at the population of children.  
+		</figcaption>
+	</figure>
+
+	<figure>
+		<img src="images/3.5.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+		<figcaption style="text-align: left; margin-top: 8px;">
+			I visualized the data as a choropleth map after applying the transformation (calculation) as follows: ("black_0_17" + "hisp_0_17" + "aapi_0_17" + "aian_0_17" + "two_or_more_0_17" + "other_0_17")/(“tot_pop_0_17”). I divided by total population to ensure the data was normalized, and not merely representative of more non-white children residents because there were simply more residents. Using a classification scheme of natural break (Jenks), I categorized the distribution of non-white children populations across five buckets. As is visible from the map, neighborhoods in the southern parts of the city (Roxbury and Mattapan, for example) have a greater distribution of non-white children residents. The spatial segregation patterns observed among white and non-white residents when looking at total population are overall consistent with spatial segregation patterns observed when looking at the population of children.  
+		</figcaption>
+	</figure>
+
+	<figure>
+		<img src="images/3.6.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+		<figcaption style="text-align: left; margin-top: 8px;">
+			I visualized the data as a choropleth map after applying the transformation (calculation) as follows: ("correction” + “juvenile”)/(“tot_pop_all”). I divided by total population to ensure the data was normalized, and not merely representative of more residents living in adult correctional or juvenile facilities because there were simply more residents. Using a classification scheme of natural break (Jenks), I categorized the distribution of populations in adult correctional and juvenile facilities across five buckets. I was interested in exploring this subset to see any correlations between racial demographics and the spatial imposition of carceral facilities (with population in adult correctional and juvenile facilities as a proxy, given that we do not have the spatial locations of carceral facilities in this dataset). The neighborhood Roxbury stands out as the population with the highest distribution of population in correctional and juvenile facilities. 		</figcaption>
+	</figure>
+
+	<figure>
+		<img src="images/3.7.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+		<figcaption style="text-align: left; margin-top: 8px;">
+			I visualized I visualized the data as a choropleth map after applying the transformation (calculation) as follows: (“vacant_units”)/(“total_units”). I divided by total number of units to ensure the data was normalized, and not merely representative of more vacant units because there were simply more units. Using a classification scheme of natural break (Jenks), I categorized the distribution of vacancy rates across five buckets. It is interesting to note the strong spatial distribution here of high vacancy rates concentrated in the northern and northeastern neighborhoods of the city (Downtown and South Boston Waterfront, for example). Based upon this spatial analysis and our earlier insights on neighborhoods displaying high corporate ownership rates, it appears that there is a correlation here, as will be discussed in the subsequent visualization. the data as a choropleth map after applying the transformation (calculation) as follows: ("correction” + “juvenile”)/(“tot_pop_all”). I divided by total population to ensure the data was normalized, and not merely representative of more residents living in adult correctional or juvenile facilities because there were simply more residents. Using a classification scheme of natural break (Jenks), I categorized the distribution of populations in adult correctional and juvenile facilities across five buckets. I was interested in exploring this subset to see any correlations between racial demographics and the spatial imposition of carceral facilities (with population in adult correctional and juvenile facilities as a proxy, given that we do not have the spatial locations of carceral facilities in this dataset). The neighborhood Roxbury stands out as the population with the highest distribution of population in correctional and juvenile facilities. 		</figcaption>
+	</figure>
+
+<p>Future Inquiry: It is particularly notable that South Boston Waterfront displays a high concentration of vacancy rates (21.59%), given our insights as to the neighborhood’s volatile corporate ownership and owner occupancy rates between 2004-2024. For future inquiry, I would be interested in obtaining temporal data for vacancy rates between 2004-2024 to create a visual analysis comparing temporal vacancy rates, corporate ownership rates, and owner occupancy rates. </p>	
+
+<figure>
+	<img src="images/4.1.png" alt="Data Visualization" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+</figure>
+
+<p>The above visualization explores the relationship between vacancy rates and corporate ownership rates in Boston neighborhoods, as prompted by insights from the spatial analysis above. For this analysis, I performed a transformation (calculation) in Tableau to create a new variable entitled “Vacancy Rate:” (“vacant_units”)/(“total_units”). I then plotted the proportion of vacancy rate v. the proportion of corporate ownership rate on a dual axis with spatially significant data (circle) sizes representing number of housing units and consistent color classification. I also plotted a line of best fit, to make very clear for the viewer where data points fall along a correlating line. Interestingly, the data do appear to cluster around the line of best fit, implying a level of quantitative significant to be further explored.  </p>
+
+<p>Future Inquiry: With additional time and for future inquiry, I believe it would be apt to conduct a regression analysis to continue applying quantitative rigor to the correlation between corporate ownership rates and vacancy rates in Boston neighborhoods. </p>
+
+</section>
+		
 		<section>
-			<h2>Section 4. Summary Lessons Learned & Future Research Inquiries</h2>
+			<h2>Section 3. Summary Lessons Learned & Future Research Inquiries</h2>
 
 		<p>It was highly instructive to work with these data sets for A2, as I believe they have prepared me with a strong spatial and contextual grounding to continue advancing relevant analyses of housing discrimination in Boston. I learned several helpful lessons from this analysis. On the basis of U.S. census racial groups, Boston displays the dynamics of spatial segregation. Contextualizing within the city’s history of redlining, exclusionary zoning, urban renewal eminent domain actions, and restrictive covenants, this does not come as a surprise. White Bostonians are the most populous resident group, although when disaggregated by age for children 0-17, we see that Hispanic/Latino and Black children outnumber white children in Boston neighborhoods. Understandably, the total population and children population visualizations maintain similar patterns of racial segregation. Such an insight may imply that although the population of young Hispanic/Latino and Black Bostonians is on the rise as compared to young white Bostonians, spatial segregation patterns may remain entrenched at the neighborhood level. This is all a helpful basis for understanding the dynamics of corporate ownership and average occupancy rates across all Boston neighborhoods, which between 2004-2024 rose for the former (from 5.48% to 25.29%) and fell for the latter (from 43.57% to 38.05%). The neighborhood of South Boston Waterfront displays particularly volatile year-to-year variations in average corporate ownership and average occupancy rates. Finally, the concluding analysis provides insights suggesting a correlation between corporate ownership rates and vacancy rates in Boston neighborhoods, with little to no variation introduced by size of housing stock in the neighborhood or racial demographics. This implies that across Boston’s neighborhoods (with large white and non-white demographics) high vacancy rates are correlated with high corporate ownership rates. Looking to the future, I am highly interested in building on the contents of this analysis to further uncover dynamics of corporate and occupant ownership across Boston’s neighborhoods. This analysis primarily sought to answer the first two questions (and multiple sub-questions) enumerated at the beginning of this report. Next, I would like to uncover more about the dynamics of corporate ownership as well as how corporate ownership impacts community wealth generation (particularly in non-white neighborhoods that have been historically excluded from housing asset growth).</p>
 		
